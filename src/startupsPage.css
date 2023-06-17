@@ -94,7 +94,6 @@
 @media (max-width: 680px) {
     .startup-list-item {
         flex-direction: column;
-        max-height: 700px;
     }
     .description-side {
         max-width: 100%;
