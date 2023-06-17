@@ -7,6 +7,9 @@ function Footer() {
             <div className="footer-logo">
                 <div className="logo">GoITeens Lab</div>
             </div>
+            <div className="footer-creator">
+                <div className="creator"><b>Created by DoubleM</b></div>
+            </div>
             <div className={"social-website-buttons"}>
                 <button className="ui facebook button"><i aria-hidden="true" className="facebook icon"></i> Facebook
                 </button>
@@ -21,6 +24,9 @@ function Footer() {
                 </button>
                 <button className="ui youtube button"><i aria-hidden="true" className="youtube icon"></i> YouTube
                 </button>
+            </div>
+            <div className="footer-bottom">
+                <p>&copy; 2023 DoubleM Website. All rights reserved.</p>
             </div>
         </div>
     )

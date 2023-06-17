@@ -1,4 +1,5 @@
 .startups-list {
+    background-color: white;
     display: flex;
     position: relative;
     width: 100%;
@@ -22,6 +23,7 @@
 }
 
 .startup-list-item:hover {
+    cursor: pointer;
     background-color: rgba(143, 188, 255, 0.15);
 }
 

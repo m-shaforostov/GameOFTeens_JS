@@ -1,6 +1,7 @@
 import './content.css';
 import { Routes, Route } from  "react-router-dom"
 import StartupsPage from "./startupsPage";
+import CreateNewPage from "./createNewPage";
 
 function Content() {
 
@@ -8,8 +9,8 @@ function Content() {
         <div className="content-main">
             <div className="content-center">
                 <Routes>
-                    <Route path="/" element={<StartupsPage/>}/>
-                    <Route  />
+                    <Route path="/startups" element={<StartupsPage/>}/>
+                    <Route path="/create-new-startup" element={<CreateNewPage/>} />
                     <Route  />
                 </Routes>
             </div>

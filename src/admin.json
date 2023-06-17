@@ -7,7 +7,7 @@
       "pictures": "/img/chatbot.png",
       "videos": "https://example.com/techassist/videos",
       "creator-name": "John Doe",
-      "creator-contacts": "john.doe@gmail.com"
+      "creator-contacts": "john.doe@example.com"
     },
     {
       "name": "CyberShield",

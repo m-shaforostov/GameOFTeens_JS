@@ -9,9 +9,9 @@ function Header() {
             </div>
             <div className="header-buttons">
                 <div className="ui secondary menu">
-                    <a className="item">Startups</a>
-                    <a className="item">Create new</a>
-                    <a className="item">News</a>
+                    <a className="item" href="/startups">Startups</a>
+                    <a className="item" href="/create-new-startup">Create new</a>
+                    <a className="item" href="/news">News</a>
                     <div className="right menu">
                         <div className="item">
                             <div className="ui icon input">
