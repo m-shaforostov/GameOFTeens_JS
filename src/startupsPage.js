@@ -1,21 +1,34 @@
 import './startupsPage.css';
-import {useEffect} from "react";
+import { useNavigate } from 'react-router-dom';
+import StartInfo from './startupInfo'
+import {useState} from "react";
 
 function StartupsPage() {
+    const [startupActive, setStartupActive] = useState(true);
+
     const admin = require('./admin.json');
     const startups = admin.startups;
+    const navigate = useNavigate();
+
+    function handleButtonClick(path) {
+        navigate(path);
+    }
+
     return (
         <div className="startups-list">
             {
                 Object.keys(startups).map((key, index) => {//[x]
                     return (
-                        <div className="startup-list-item">
+                        <div className="startup-list-item" key={index} onClick={() => {handleButtonClick(`/startup/${index}`)}}>
                             <div className="description-side">
                                 <div className="startup-name">
                                     <b>{startups[key].name}</b>
                                 </div>
                                 <div className="startup-short-description">
                                     {startups[key]["short-description"]}
+                                </div>
+                                <div className="posting-date">
+                                    Posted {startups[key].date}
                                 </div>
                                 <div className="startup-full-explanation">
                                     {startups[key]["full-explanation"]}
@@ -25,13 +38,13 @@ function StartupsPage() {
                                         Creator: <b>{startups[key]["creator-name"]}</b>
                                     </div>
                                     <div className="creator-contacts">
-                                        Contacts: <b>{startups[key]["creator-contacts"]}</b>
+                                        Contacts: <b>{startups[key]["creator-contacts"]}{startups[key]["creator-phone"] ? ", " + startups[key]["creator-phone"] : ""}</b>
                                     </div>
                                 </div>
                             </div>
                             <div className="photo-side">
                                 <div className="startup-photo">
-                                    <img src={startups[key]["pictures"]} alt="startup-photo"/>
+                                    <img src={startups[key]["pictures"][0]} alt="startup-photo"/>
                                     {/*<div className="ui active centered inline loader"></div>*/}
                                 </div>
                             </div>

@@ -1,6 +1,9 @@
 import './header.css';
+import { useNavigate } from 'react-router-dom';
 
 function Header() {
+    const navigate = useNavigate();
+    const navigFunc = (path) => () => navigate(path);
 
     return (
         <div className="header-main">
@@ -9,9 +12,9 @@ function Header() {
             </div>
             <div className="header-buttons">
                 <div className="ui secondary menu">
-                    <a className="item" href="/startups">Startups</a>
-                    <a className="item" href="/create-new-startup">Create new</a>
-                    <a className="item" href="/news">News</a>
+                    <a className="item" href="#" onClick={ navigFunc('/startups') }>Startups</a>
+                    <a className="item" href="#" onClick={ navigFunc('/create-new-startup') }>Create new</a>
+                    <a className="item" href="#" onClick={ navigFunc('/news') }>News</a>
                     <div className="right menu">
                         <div className="item">
                             <div className="ui icon input">

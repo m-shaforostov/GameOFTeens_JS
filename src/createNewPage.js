@@ -14,11 +14,15 @@ function CreateNewPage() {
             type: filetype,
         })
         setFilesArr(copy);
-        console.log(fileName, filetype)
-        console.log(filesArr)
     }
 
+    function removeUploadedFiles (index) {
+        let copy = _.clone(filesArr);
+        copy.splice(index, 1);
+        setFilesArr(copy);
+    }
 
+    // optional and *
     return (
         <div className="create-new-form">
             <div className="ui info message form-message">
@@ -27,9 +31,24 @@ function CreateNewPage() {
                     further development.</p>
             </div>
             <div className="creation-form">
-                <p className="form-name"><b>Creation form</b></p>
                 <form className="ui form">
-                    <div className="field"><label>Project name (40 symbols max)</label><input placeholder="Name"/></div>
+                    <div className="equal width fields">
+                        <div className="field"><label>First name</label>
+                            <div className="ui fluid input"><input type="text" placeholder="First name"/></div>
+                        </div>
+                        <div className="field"><label>Last name</label>
+                            <div className="ui fluid input"><input type="text" placeholder="Last name"/></div>
+                        </div>
+                    </div>
+                    <div className="equal width fields">
+                        <div className="field"><label>E-mail</label>
+                            <div className="ui fluid input"><input type="text" placeholder="E-mail"/></div>
+                        </div>
+                        <div className="field"><label>Phone number (optional)</label>
+                            <div className="ui fluid input"><input type="text" placeholder="Phone number"/></div>
+                        </div>
+                    </div>
+                    <div className="field"><label>Project name</label><input placeholder="Name"/></div>
                     <div className="field"><label>Description</label><input placeholder="Write a short and catchy description"/></div>
                     <div className="field">
                         <label>Full information</label>
@@ -43,7 +62,7 @@ function CreateNewPage() {
                                 <div className="upload-icon">
                                     <i className="cloud upload icon"></i>
                                 </div>
-                                <p className="upload-text">Click or drag files here</p>
+                                <p className="upload-text">Click here to upload</p>
                             </div>
                         </label>
                     </div>
@@ -62,7 +81,7 @@ function CreateNewPage() {
                                                  {value.name}
                                             </div>
                                         </div>
-                                        <div className="right-file-info">
+                                        <div className="right-file-info" onClick={() => {removeUploadedFiles(index)}}>
                                             <i className="close icon"></i>
                                         </div>
                                     </div>

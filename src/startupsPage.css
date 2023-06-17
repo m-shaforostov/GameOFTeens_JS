@@ -13,8 +13,9 @@
     position: relative;
     width: 100%;
     height: 100%;
+    max-height: 300px;
     min-height: 200px;
-    padding: 5px 10px;
+    padding: 5px 15px;
     border-bottom: solid 2px #ebebeb;
 }
 
@@ -33,22 +34,34 @@
     flex-direction: column;
     align-items: start;
     text-align: left;
-    width: 75%;
+    max-width: 75%;
 }
 
 .startup-name {
-    margin: 10px 0;
+    margin: 10px 0 0 0;
     font-size: 30px;
+    color: #2185d0;
+}
+
+.posting-date {
+    color:grey;
 }
 
 .startup-short-description {
-    margin: 10px 0;
+    margin: 15px 0 0 0;
     font-size: 20px;
 }
 
 .startup-full-explanation {
     margin: 10px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Number of lines to display */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
 }
+
 
 .photo-side{
     display: flex;

@@ -105,6 +105,10 @@
     font-size: 18px;
 }
 
+.right-file-info:hover {
+    cursor: pointer;
+}
+
 .no-files {
     display: flex;
     align-items: center;
