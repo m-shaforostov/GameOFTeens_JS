@@ -38,10 +38,11 @@ function StartupsPage() {
                                         Creator: <b>{startups[key]["creator-name"]}</b>
                                     </div>
                                     <div className="creator-contacts">
-                                        Contacts: <b>{startups[key]["creator-contacts"]}{startups[key]["creator-phone"] ? ", " + startups[key]["creator-phone"] : ""}</b>
+                                        Contacts: <p><b>{startups[key]["creator-contacts"]}</b></p><p><b>{startups[key]["creator-phone"] ? startups[key]["creator-phone"] : ""}</b></p>
                                     </div>
                                 </div>
                             </div>
+                            <div className="ui divider" id="adaptive-divider-column"></div>
                             <div className="photo-side">
                                 <div className="startup-photo">
                                     <img src={startups[key]["pictures"][0]} alt="startup-photo"/>
