@@ -2,7 +2,7 @@
   "startups": [
     {
       "name": "TechAssist",
-      "date": "17.06.2023",
+      "date": "2023-06-17",
       "short-description": "AI-powered IT Support Platform",
       "full-explanation": "TechAssist is a cutting-edge IT support platform that utilizes artificial intelligence and machine learning to provide instant and accurate solutions to common IT problems. Whether it's troubleshooting software issues, configuring network settings, or resolving hardware problems, TechAssist is here to assist users with its advanced algorithms and extensive knowledge base.",
       "pictures": ["/img/chatbot.png"],
@@ -14,7 +14,7 @@
     },
     {
       "name": "CyberShield",
-      "date": "14.06.2023",
+      "date": "2023-06-14",
       "short-description": "Advanced Cybersecurity Solutions",
       "full-explanation": "CyberShield is a leading provider of advanced cybersecurity solutions that protect businesses from evolving cyber threats. Our comprehensive suite of products includes state-of-the-art firewall systems, intrusion detection systems, and encrypted communication platforms. With CyberShield, organizations can safeguard their sensitive data, prevent unauthorized access, and maintain a secure digital environment. ",
       "pictures": ["/img/CyberShield.png"],
@@ -25,7 +25,7 @@
     },
     {
       "name": "SmartCommerce",
-      "date": "13.06.2023",
+      "date": "2023-06-13",
       "short-description": "AI-driven E-commerce Optimization",
       "full-explanation": "SmartCommerce is an AI-driven platform that optimizes e-commerce businesses for increased sales and customer satisfaction. Leveraging machine learning algorithms, we analyze user behavior, personalize product recommendations, and streamline the purchase process. With SmartCommerce, online retailers can maximize conversions, improve customer engagement, and boost their overall revenue.",
       "pictures": ["/img/SmartCommerce.png"],
@@ -37,7 +37,7 @@
     },
     {
       "name": "HealthTech Solutions",
-      "date": "13.06.2023",
+      "date": "2023-06-13",
       "short-description": "Revolutionizing Healthcare through Technology",
       "full-explanation": "HealthTech Solutions is dedicated to revolutionizing the healthcare industry by harnessing the power of technology. Our innovative solutions include electronic health record (EHR) systems, telemedicine platforms, and AI-based diagnostics. By seamlessly integrating technology into healthcare workflows, we aim to enhance patient care, improve operational efficiency, and empower medical professionals with actionable insights.",
       "pictures": ["/img/HealthTechSolutions.png"],
@@ -49,7 +49,7 @@
     },
     {
       "name": "EduLearn",
-      "date": "12.06.2023",
+      "date": "2023-06-12",
       "short-description": "Next-Generation Education Platform",
       "full-explanation": "EduLearn is a next-generation education platform that leverages technology to deliver personalized and interactive learning experiences. Our platform offers a wide range of courses, virtual classrooms, and gamified learning modules. With EduLearn, students can access high-quality education from anywhere, at any time, while educators can create engaging content and track student progress more effectively.",
       "pictures": ["/img/EduLearn.png"],
@@ -60,5 +60,42 @@
       "accumulated-money": "2432 / 6433 UAH"
     }
 
+  ],
+  "news" : [
+    {
+      "title": "New Startup Raises $10 Million in Funding",
+      "correspondent": "John Smith",
+      "news": "XYZ Tech, a promising startup in the field of artificial intelligence, has recently secured $10 million in funding from a group of venture capitalists. The company plans to use the investment to further develop its cutting-edge AI algorithms and expand its team of engineers and researchers.",
+      "date": "2023-05-02",
+      "picture": "/img/first-news.jpg"
+    },
+    {
+      "title": "Startup Launches Revolutionary Health App",
+      "correspondent": "Emily Johnson",
+      "news": "HealthTech Solutions, a startup specializing in healthcare innovations, has launched a groundbreaking mobile application aimed at revolutionizing the way people manage their health. The app provides personalized recommendations, tracks vital signs, and offers telemedicine services, making healthcare more accessible and convenient for users.",
+      "date": "2023-05-08",
+      "picture": "/img/health-app.jpeg"
+    },
+    {
+      "title": "E-commerce Startup Disrupts Retail Industry",
+      "correspondent": "John Smith",
+      "news": "Globex Commerce, a new e-commerce startup, is disrupting the traditional retail industry with its innovative platform. By leveraging advanced data analytics and machine learning algorithms, Globex Commerce provides personalized product recommendations, seamless shopping experiences, and efficient supply chain management, transforming the way consumers shop online.",
+      "date": "2023-05-15",
+      "picture": "/img/e-commerce.jpg"
+    },
+    {
+      "title": "Startup Unveils Sustainable Energy Solution",
+      "correspondent": "Sarah Lee",
+      "news": "GreenPower Systems, a startup dedicated to sustainable energy solutions, has unveiled its latest innovation—a breakthrough solar panel that boasts higher efficiency and durability. The advanced technology employed by GreenPower Systems promises to significantly increase the adoption of solar energy and contribute to reducing carbon emissions.",
+      "date": "2023-05-20",
+      "picture": "/img/energy.jpeg"
+    },
+    {
+      "title": "AI Startup Develops Language Translation Breakthrough",
+      "correspondent": "John Smith",
+      "news": "LinguaTech, an artificial intelligence startup, has achieved a major milestone in language translation technology. Their new neural network model can accurately translate multiple languages in real-time, with improved accuracy and natural language processing capabilities. This breakthrough has the potential to revolutionize cross-cultural communication and open up new possibilities for global businesses.",
+      "date": "2023-05-28",
+      "picture": "/img/LanguageTranslation.jpg"
+    }
   ]
 }

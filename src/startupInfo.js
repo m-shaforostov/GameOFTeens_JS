@@ -55,7 +55,7 @@ function StartupInfo() {
                         Creator: <p><b>{startup["creator-name"]}</b></p>
                     </div>
                     <div className="chosen-creator-contacts">
-                        Contacts: <p><b>{startup["creator-contacts"]}{startup["creator-phone"] ? ", " + startup["creator-phone"] : ""}</b></p>
+                        Contacts: <p><b>{startup["creator-contacts"]}</b></p> <p><b>{startup["creator-phone"] ? startup["creator-phone"] : ""}</b></p>
                     </div>
                 </div>
                 <div className="footer-buttons">

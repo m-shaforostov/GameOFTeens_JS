@@ -79,3 +79,7 @@
 .startup-photo img {
     width: 100%;
 }
+
+.posting-date p{
+    margin: 0;
+}

@@ -4,7 +4,6 @@ import StartInfo from './startupInfo'
 import {useState} from "react";
 
 function StartupsPage() {
-    const [startupActive, setStartupActive] = useState(true);
 
     const admin = require('./admin.json');
     const startups = admin.startups;
@@ -28,7 +27,8 @@ function StartupsPage() {
                                     {startups[key]["short-description"]}
                                 </div>
                                 <div className="posting-date">
-                                    Posted {startups[key].date}
+                                    <p>Posted {startups[key].date}</p>
+                                    <p>Earned {startups[key]["accumulated-money"]}</p>
                                 </div>
                                 <div className="startup-full-explanation">
                                     {startups[key]["full-explanation"]}
