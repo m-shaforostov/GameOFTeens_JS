@@ -26,6 +26,7 @@ function News() {
                                     {news[key]["correspondent"]}
                                 </div>
                             </div>
+                            <div className="ui divider" id="adaptive-divider-column-news"></div>
                             <div className="photo-side">
                                 <div className="news-photo">
                                     <img src={news[key]["picture"]} alt="startup-photo"/>
