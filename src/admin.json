@@ -1,6 +1,50 @@
 {
-  "name": "src",
-  "version": "1.0.0",
-  "dependencies": {
-  }
+  "startups": [
+    {
+      "name": "TechAssist",
+      "short-description": "AI-powered IT Support Platform",
+      "full-explanation": "TechAssist is a cutting-edge IT support platform that utilizes artificial intelligence and machine learning to provide instant and accurate solutions to common IT problems. Whether it's troubleshooting software issues, configuring network settings, or resolving hardware problems, TechAssist is here to assist users with its advanced algorithms and extensive knowledge base.",
+      "pictures": "/img/chatbot.png",
+      "videos": "https://example.com/techassist/videos",
+      "creator-name": "John Doe",
+      "creator-contacts": "john.doe@gmail.com"
+    },
+    {
+      "name": "CyberShield",
+      "short-description": "Advanced Cybersecurity Solutions",
+      "full-explanation": "CyberShield is a leading provider of advanced cybersecurity solutions that protect businesses from evolving cyber threats. Our comprehensive suite of products includes state-of-the-art firewall systems, intrusion detection systems, and encrypted communication platforms. With CyberShield, organizations can safeguard their sensitive data, prevent unauthorized access, and maintain a secure digital environment.",
+      "pictures": "/img/CyberShield.png",
+      "videos": "https://example.com/cybershield/videos",
+      "creator-name": "Sarah Johnson",
+      "creator-contacts": "sarah.johnson@example.com"
+    },
+    {
+      "name": "SmartCommerce",
+      "short-description": "AI-driven E-commerce Optimization",
+      "full-explanation": "SmartCommerce is an AI-driven platform that optimizes e-commerce businesses for increased sales and customer satisfaction. Leveraging machine learning algorithms, we analyze user behavior, personalize product recommendations, and streamline the purchase process. With SmartCommerce, online retailers can maximize conversions, improve customer engagement, and boost their overall revenue.",
+      "pictures": "/img/SmartCommerce.png",
+      "videos": "https://example.com/smartcommerce/videos",
+      "creator-name": "Michael Smith",
+      "creator-contacts": "michael.smith@example.com"
+    },
+    {
+      "name": "HealthTech Solutions",
+      "short-description": "Revolutionizing Healthcare through Technology",
+      "full-explanation": "HealthTech Solutions is dedicated to revolutionizing the healthcare industry by harnessing the power of technology. Our innovative solutions include electronic health record (EHR) systems, telemedicine platforms, and AI-based diagnostics. By seamlessly integrating technology into healthcare workflows, we aim to enhance patient care, improve operational efficiency, and empower medical professionals with actionable insights.",
+      "pictures": "/img/HealthTechSolutions.png",
+      "videos": "https://example.com/healthtechsolutions/videos",
+      "creator-name": "Emily Brown",
+      "creator-contacts": "emily.brown@example.com"
+    },
+    {
+      "name": "EduLearn",
+      "short-description": "Next-Generation Education Platform",
+      "full-explanation": "EduLearn is a next-generation education platform that leverages technology to deliver personalized and interactive learning experiences. Our platform offers a wide range of courses, virtual classrooms, and gamified learning modules. With EduLearn, students can access high-quality education from anywhere, at any time, while educators can create engaging content and track student progress more effectively.",
+      "pictures": "/img/EduLearn.png",
+      "videos": "https://example.com/edulearn/videos",
+      "creator-name": "David Wilson",
+      "creator-contacts": "david.wilson@example.com"
+    }
+
+  ]
 }

@@ -1,0 +1,37 @@
+.header-main{
+    display: flex;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: #a8cbff;
+    padding: 0 20px;
+    justify-content: space-between;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+    z-index: 5;
+}
+.header-logo {
+    position: relative;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.header-logo .logo {
+    display: flex;
+    position: relative;
+    color: #393E46;
+    font-size: 35px;
+    text-align: center;
+    -webkit-user-select: none;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.header-buttons {
+    display: flex;
+    position: relative;
+    height: 100%;
+    align-items: center;
+}
